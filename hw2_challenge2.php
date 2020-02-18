@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>I'm a title!!</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <meta name="description" content="A rinky-dink webpage"/>
 <!-- a.  The mt_rand() function returns a random value; optionally you may enter a mix and max number to be returned. Documentation is available at http://www.w3schools.com/php/func_math_mt_rand.asp  
 Create a PHP page that simulates a series of random coin tosses for 1, 3, 5, 7, and 9 flips. You should make your page visually interesting by using images to represent a toss of heads or tails, e.g.:
