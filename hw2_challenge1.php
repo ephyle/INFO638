@@ -27,15 +27,20 @@ Divide the sum by 11, if the sum leaves no remainder when divided by 11 the code
 	<a href="hw2_challenge2.php">HW2  Challenge 2</a>
 </nav>
 <!-- php practice time! -->
-
+<form action = "" method="GET">
+	<p>Enter ISBN:</p>
+	<input type="text" name="isbn"/>
+	<input type="submit" value= "submit">
+</form>
 <?php
+
 function valid_isbn ($num){
 	$counter = 10;
 	$digits =  str_split($num);
 	$product_array = [];
 	if (strlen($num) == 10 && is_numeric($num) == true){
 		$digits =  str_split($num);
-		while ( $counter > 0) {
+		while ($counter > 0) {
 			foreach ($digits as &$value) {
 				$product = $value * $counter;
 				array_push($product_array, $product);
@@ -56,7 +61,10 @@ function valid_isbn ($num){
 }	
 
 
-$ISBN = '0747532699';
+
+$ISBN = $_GET["isbn"];
+//echo "<p>$ISBN</p>";
+
 if (valid_isbn($ISBN) === true){
 	echo "<p>$ISBN is a valid ISBN</p>";
 }else{
