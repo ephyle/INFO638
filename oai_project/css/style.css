@@ -1,0 +1,250 @@
+
+
+span{
+	padding:3%;
+	margin-bottom:2%;
+	color:#363636;
+}
+
+
+nav {
+  background-color: #00004d;
+  overflow: hidden;
+  margin-right: 15%;
+  margin-bottom: 2em;
+}
+
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-variant: small-caps;
+}
+
+
+nav a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+
+nav a.active {
+  background-color: #248f24;
+  color: white;
+}
+
+/*a:hover, a.active {
+	color: #ffffff;
+	background-color: #000000;
+}*/
+
+
+
+h1{
+  text-align:left;
+  font-size: 90px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  width: 80%;
+  background: -webkit-linear-gradient(left, #000066, #33cc33, #ff9933);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -12px;
+}
+
+h3{
+	display: inline;
+	color:#363636;
+	padding: 1%;
+	margin: 2%;
+	float:left;
+	clear: both;
+	width:60%;
+	font-size: 24px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: -2px;
+	font-weight: bold;
+
+}
+
+div.images{
+	width:30%;
+	height: auto;
+	padding: 3%;
+	float: right;
+}
+
+img{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width:15%;
+	height: auto;
+	display: inline;
+}
+
+p{
+	color:#363636;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 60%;
+	font-size: 18px;
+	padding-left: 3em;
+	float: left;
+	clear:both;
+	display: inline;
+}
+
+p.divide{
+	color:#363636;
+	background-color: #FAA381;
+	opacity: 0.5;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width:60%;
+	height: auto;
+	font-size: 10px;
+	padding: 2%;
+	float: right;
+	display: inline-block;
+}
+label{
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width:40%;
+	padding: 1%;
+	margin: 2%;
+	clear:left;
+	display: inline;
+}
+input{
+	width:50%;
+	clear:right;
+	padding: 1%;
+	margin: 2%;
+}
+input[type=submit] {
+    padding:5px 15px;
+    transition-duration: 0.4s; 
+    background:#eee; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+input[type=submit]:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  font-weight: bold;
+}
+
+form{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 3%;
+	clear:both;
+	margin:10px;
+	margin-left: 10%;
+	width:35%;
+	/*display: inline-block;	*/
+	font-size: 14px;;
+	line-height: 24px;
+	font-weight: bold;
+	color: #363636;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 3em;
+	/*border: 1px solid #999;*/
+	border: inset 1px solid #333;
+	background-color: #FFA52C;
+	font-size: 16px;
+}
+/*fieldset{
+	border: 2px solid #fff;
+	background-color: #ff9933;
+
+}*/
+table{
+	color:#363636;
+	table-layout: fixed;
+	opacity: 0.9;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width:70%;
+	padding: 1%;
+	margin: 0 auto;
+	/*display: inline-block;*/
+	border: 2px solid #fff;
+	border-collapse: separate;
+}
+
+
+td {
+	font-size: 12px;
+	border: 1px solid #363636;
+	padding: 10px;
+	height: auto;
+/*	max-width: 50px;*/
+	overflow-wrap: break-word;
+
+}
+tr{
+	height: auto;
+	height: auto;
+	overflow-wrap: break-word;
+	color: #000000;
+}
+
+td a:hover, td:hover, tr:hover {
+  background-color: #ddd;
+  color: #000;
+}
+th {
+	background-color:#363636;
+	opacity: 90%;
+	color: #fff;
+	border: solid #fff;
+	border-bottom: 5px solid #ffffff;
+/*	line-height: 2em;*/
+	padding: 1%;
+	text-align: left;
+	font-size: 16px;
+}
+
+th.field{
+	width: 20%;
+	max-width: 100px;
+	background-color: black;
+}
+
+iframe{
+	margin: 0 auto;
+	clear:both;
+	margin-left:5%;
+	margin-right:5%;
+	padding: 2%;
+
+}
+
+#footer {
+   position:relative;
+   left:0px;
+   bottom:0px;
+   height:3em;
+   width:100%;
+   background:#FFA52C;
+   opacity: 90%;
+   bottom: -25px;
+   clear: both;
+}
+#footer li {
+    text-align: center;
+    display: inline-block;
+     list-style-type: none;
+    float: left;
+    margin-left: 4em;
+    line-height: 2em;
+    position: relative;
+    color: #000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1em;
+    bottom: -10px;
+}
